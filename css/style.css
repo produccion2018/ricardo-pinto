@@ -832,3 +832,44 @@ main {
         transform: translateY(-5px); /* Reducir la animación para que se mueva menos */
     }
 }
+
+/* main */
+
+/* Contenedor principal */
+.content {
+  width: 100%;
+  max-width: 800px; /* Limitar el ancho máximo */
+  padding: 20px;
+  margin: 0 auto; /* Centrar contenido */
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #f7f7f7;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Grilla de servicios */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Siempre dos columnas */
+  gap: 20px; /* Espaciado entre tarjetas */
+  justify-items: center; /* Centrar tarjetas en la grilla */
+}
+
+/* Tarjetas */
+.card {
+  background: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px; /* Limitar ancho de las tarjetas */
+  aspect-ratio: 1 / 1; /* Mantener proporción cuadrada */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;}
+ 
