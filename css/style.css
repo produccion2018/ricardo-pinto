@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Estilos personalizados */
 .navbar {
     background-color: #343a40; /* Fondo oscuro */
@@ -369,7 +375,7 @@ main {
 
 .card:hover {
   transform: translateY(-10px); /* Efecto de elevación al pasar el cursor */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa al hacer hover */
+  box-shadow: 0 10px 20px #0000004d; /* Sombra más intensa al hacer hover */
 }
 
 /* Títulos de las tarjetas */
@@ -685,13 +691,13 @@ main {
 .submit-btn:hover {
   background-color: #ffaa00; /* Amarillo más oscuro */
   transform: scale(1.03); /* Ligeramente más grande */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  box-shadow: 0 4px 6px #00000033; /* Sombra más pronunciada */
 }
 
 /* Efectos al presionar */
 .submit-btn:active {
   transform: scale(0.95); /* Efecto de pulsación */
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15); /* Sombra reducida */
+  box-shadow: 0 1px 2px #00000026; /* Sombra reducida */
 }
 
 /* Botón deshabilitado */
@@ -715,7 +721,7 @@ main {
   .submit-btn:hover {
     background-color: #ffcc00;
     transform: scale(1.05); /* Efecto de zoom */
-    box-shadow: 0 4px 15px rgba(255, 204, 0, 0.6); /* Sombra más prominente en hover */
+    box-shadow: 0 4px 15px #ffcc0099; /* Sombra más prominente en hover */
   }
   
   /* Media Queries para hacer el diseño responsive */
