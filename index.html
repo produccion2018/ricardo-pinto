@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 <!-- Enlace a SweetAlert2 -->
+ <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
@@ -69,36 +70,51 @@
     </button>
   </div>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="./img/rica.webp" alt="Logo" class="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-
+  <style>
+    .navbar-nav {
+      justify-content: flex-end;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="./img/foto 2.webp" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto text-center w-100">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Productos</a>
+          <a class="nav-link" href="#nosotros">Nosotros</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Servicios</a>
+          <a class="nav-link" href="#servicios">Servicios</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
   </nav>
+  
+  <!-- Secciones -->
+  <div id="inicio">
 
+
+ 
+
+  
+  
+  
 <!-- Contenedor principal -->
+<div id="servicios">
+
+
 <div class="main-container">
     <!-- Sidebar de Noticias -->
     <aside class="sidebar">
@@ -219,6 +235,10 @@
     </div>
   </section>
   <section class="contact-form">
+    <div id="contacto">
+      <h2>Contacto</h2>
+      
+    </div>
     <h2 class="form-title">Contacto</h2>
     <form id="contactForm" class="form" action="#" method="POST">
       <div class="form-group">
